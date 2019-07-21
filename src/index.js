@@ -3,14 +3,9 @@ import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
 
+import App from './app';
 //reducers
 import reducer from './reducers/index';
-
-const App = ()=>{
-    return(
-        <div>Sample react app</div>
-    )
-}
 
 const createStoreWithMiddleware = applyMiddleware()(createStore)
 

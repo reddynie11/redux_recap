@@ -9,3 +9,15 @@ export function movieslist(){
         ]
     }
 }
+
+export function directorslist(){
+    return{
+        type : 'DIR_LIST',
+        payload:[
+            {id:'1',name:'James Bond'},
+            {id:'2',name:'Nigger'},
+            {id:'3',name:'NDK'},
+            {id:'4',name:'Dicso'},
+        ]
+    }
+}
